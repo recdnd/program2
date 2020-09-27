@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.params=
+comment0.target=MazeRunner()
+comment0.text=\r\n\ Creates\ a\ new\ MazeRunner\ object.\r\n
+comment1.params=
+comment1.target=void\ myProgram()
+comment1.text=\r\n\ check\ if\ the\ jeroo\ meets\ are\ requrements\ to\ finish.\r\n\ the\ run\ and\ it\ runs\ until\ it\ satisfies.\r\n
+comment2.params=
+comment2.target=boolean\ check()
+comment2.text=\r\n\ Check\ if\ there's\ no\ net\ or\ flowers\ remain\ on\ the\r\n\ island\ also\ end\ at\ (1,1)\r\n\ @return\ if\ true\ it\ has\ no\ flowers\ or\ nets\ at\ (1,\ 1).\r\n
+comment3.params=
+comment3.target=void\ pickFlower()
+comment3.text=\r\n\ Jeroo\ picks\ whenever\ sees\ a\ flower\ at\ it's\ local\ pt.\r\n
+comment4.params=
+comment4.target=void\ tossFlower()
+comment4.text=\r\n\ Jeroo\ toss\ whenever\ sees\ a\ net\ ahead.\r\n
+comment5.params=
+comment5.target=boolean\ turnLeft()
+comment5.text=\r\n\ The\ jeroo\ turns\ left\ if\ possible.\r\n\ @return\ if\ true,\ it\ turns\ left.\ if\ false,\ it\ stays\ straight\r\n
+comment6.params=
+comment6.target=boolean\ hopForward()
+comment6.text=\r\n\ The\ jeroo\ go\ straight\ if\ possible.\r\n\ @return\ if\ true,the\ jeroo\ hops.\ if\ false,\ it\ stops.\r\n
+comment7.params=
+comment7.target=void\ run()
+comment7.text=\r\n\ The\ jeroo\ runs,\ turns\ right\ if\ it\ can\ either\ turn\ left\r\n\ or\ hop\ foward,\ if\ there's\ water\ in\ 3\ directions\ it\r\n\ turns\ back.\ Picks\ and\ disables\ whenever\ possible.\r\n
+numComments=8
